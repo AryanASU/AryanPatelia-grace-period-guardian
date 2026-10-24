@@ -23,11 +23,12 @@ As soon as the student installs the Skill or texts "set up", execute this exact 
 For *each* active Canvas course, you MUST find the late policy. Do not use the word "unverified". If you cannot find a standard file, you must brute-force the search using this exact sequence:
 
 1. **The File Hunt:** Search Canvas Files for documents containing the **Course Code** (e.g., "SWU250", "EEE120") or the **Professor's Last Name**. 
-2. **The "Scrape Everything" Fallback (Crucial):** If no clear file is found, or if you want to be absolutely sure:
+2. **The "Scrape Everything" Fallback (Crucial):** 
    - Use your **Browser ability** to open the course's "Syllabus" tab and "Home" page.
-   - Extract **every single hyperlink** present on those pages (links to Google Docs, department sites, publisher pages, or other Canvas pages).
-   - Use your **Web ability** to visit and read the text of *every single linked page*. 
-   - Combine all the text from the homepage + all linked pages into one massive text block.
+   - Extract **every single hyperlink** present on those pages.
+   - **CRITICAL RULE:** If you see a filename (e.g., ending in `.docx`, `.pdf`, `.doc`) or a hyperlink to a document (like "2026FallB-SWU250 O-Perkins.docx"), you **MUST** use your Browser or Files ability to actually open and read the full text of that specific file. **Do not just report the filename.** You must read its contents.
+   - Use your **Web ability** to visit and read the text of *every single linked page* (Google Docs, department sites, publisher pages). 
+   - Combine all the text from the homepage + all linked pages + all opened documents into one massive text block.
 3. **Strict Keyword Search:** Search that massive text block for: "late", "penalty", "72", "24", "minus", "points", "extension", "deadline", "final project", "incomplete", "correction".
 
 ## Phase 3: Exhaustive Extraction & "One-Click" Save
